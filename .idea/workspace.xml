@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPrinciples/AggregationRelationship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPrinciples/HasARelationship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPrinciples/IsARelationship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/BoundedTypeParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/Constructors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/GenericContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/GenericException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/GenericWithEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/IntMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/MiniProject/GenericKeyValueStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/MiniProject/TaskProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +51,12 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AggregationRelationship.executor": "Run",
     "Application.AnonymousClass.executor": "Run",
+    "Application.BoundedTypeParameter.executor": "Run",
     "Application.CheckAge.executor": "Run",
+    "Application.Constructors.executor": "Run",
+    "Application.GenericException.executor": "Run",
+    "Application.GenericKeyValueStore.executor": "Run",
+    "Application.GenericWithEnum.executor": "Run",
     "Application.HasARelationship (1).executor": "Run",
     "Application.HasARelationship.executor": "Run",
     "Application.ImplementConvarient.executor": "Run",
@@ -57,22 +71,28 @@
     "Application.ObjectClass (2).executor": "Run",
     "Application.ObjectClass (3).executor": "Run",
     "Application.ObjectClass.executor": "Run",
+    "Application.Pair.executor": "Run",
     "Application.PurposeOfFinalize.executor": "Run",
     "Application.StaticInnerClass.executor": "Run",
+    "Application.TaskProcessing.executor": "Run",
+    "Application.Test (1).executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.UpDownCasting.executor": "Run",
     "Application.UseOfThrows.executor": "Run",
+    "Application.WildCard.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AggregationRelationship">
-    <configuration name="AggregationRelationship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPrinciples.AggregationRelationship" />
+  <component name="RunManager" selected="Application.TaskProcessing">
+    <configuration name="GenericException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.GenericException" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPrinciples.*" />
+          <option name="PATTERN" value="Generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HasARelationship (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPrinciples.HasARelationship" />
+    <configuration name="GenericKeyValueStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.MiniProject.GenericKeyValueStore" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPrinciples.*" />
+          <option name="PATTERN" value="Generic.MiniProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HasARelationship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPrinciples.HasARelationship" />
+    <configuration name="GenericWithEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.GenericWithEnum" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPrinciples.*" />
+          <option name="PATTERN" value="Generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsARelationship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPrinciples.IsARelationship" />
+    <configuration name="TaskProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.MiniProject.TaskProcessing" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPrinciples.*" />
+          <option name="PATTERN" value="Generic.MiniProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnumPractice.Main" />
+    <configuration name="WildCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.WildCard" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EnumPractice.*" />
+          <option name="PATTERN" value="Generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AggregationRelationship" />
-        <item itemvalue="Application.HasARelationship" />
-        <item itemvalue="Application.HasARelationship (1)" />
-        <item itemvalue="Application.IsARelationship" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TaskProcessing" />
+        <item itemvalue="Application.GenericKeyValueStore" />
+        <item itemvalue="Application.GenericException" />
+        <item itemvalue="Application.WildCard" />
+        <item itemvalue="Application.GenericWithEnum" />
       </list>
     </recent_temporary>
   </component>
