@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EnumPractice/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnumPractice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPrinciples/AggregationRelationship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPrinciples/HasARelationship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPrinciples/IsARelationship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +40,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AggregationRelationship.executor": "Run",
     "Application.AnonymousClass.executor": "Run",
     "Application.CheckAge.executor": "Run",
+    "Application.HasARelationship (1).executor": "Run",
+    "Application.HasARelationship.executor": "Run",
     "Application.ImplementConvarient.executor": "Run",
+    "Application.IsARelationship.executor": "Run",
     "Application.LocalInnerClass (1).executor": "Run",
     "Application.LocalInnerClass (2).executor": "Run",
     "Application.LocalInnerClass.executor": "Run",
@@ -61,13 +66,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="AnonymousClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.AnonymousClass" />
+  <component name="RunManager" selected="Application.AggregationRelationship">
+    <configuration name="AggregationRelationship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPrinciples.AggregationRelationship" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClasses.*" />
+          <option name="PATTERN" value="DesignPrinciples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalInnerClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.LocalInnerClass" />
+    <configuration name="HasARelationship (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPrinciples.HasARelationship" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClasses.*" />
+          <option name="PATTERN" value="DesignPrinciples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalInnerClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.LocalInnerClass" />
+    <configuration name="HasARelationship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPrinciples.HasARelationship" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClasses.*" />
+          <option name="PATTERN" value="DesignPrinciples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.LocalInnerClass" />
+    <configuration name="IsARelationship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPrinciples.IsARelationship" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClasses.*" />
+          <option name="PATTERN" value="DesignPrinciples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AggregationRelationship" />
+        <item itemvalue="Application.HasARelationship" />
+        <item itemvalue="Application.HasARelationship (1)" />
+        <item itemvalue="Application.IsARelationship" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.AnonymousClass" />
-        <item itemvalue="Application.LocalInnerClass (2)" />
-        <item itemvalue="Application.LocalInnerClass (1)" />
-        <item itemvalue="Application.LocalInnerClass" />
       </list>
     </recent_temporary>
   </component>
