@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections/Comparators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/ListInerface/Linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/ListInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ListInerface/Arraylist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
     "Application.HasARelationship.executor": "Run",
     "Application.ImplementConvarient.executor": "Run",
     "Application.IsARelationship.executor": "Run",
+    "Application.Linkedlist.executor": "Run",
     "Application.ListInter.executor": "Run",
     "Application.LocalInnerClass (1).executor": "Run",
     "Application.LocalInnerClass (2).executor": "Run",
@@ -79,21 +80,8 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Comparators">
+  <component name="RunManager" selected="Application.Linkedlist">
     <configuration name="Comparators (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
-      <module name="Java Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Comparators (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
       <module name="Java Master" />
       <extension name="coverage">
@@ -111,7 +99,46 @@
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.*" />
+          <option name="PATTERN" value="Collections.ListInerface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Comparators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
+      <module name="Java Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.ListInerface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Comparators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
+      <module name="Java Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.ListInerface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Linkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.ListInerface.Linkedlist" />
+      <module name="Java Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.ListInerface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,26 +147,13 @@
       </method>
     </configuration>
     <configuration name="ListInter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.ListInter" />
+      <option name="MAIN_CLASS_NAME" value="Collections.ListInerface.ListInter" />
       <module name="Java Master" />
       <option name="PROGRAM_PARAMETERS" value="Collections.ListInter" />
       <option name="VM_PARAMETERS" value="--add-opens java.base/java.util=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Varags.Main" />
-      <module name="Java Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Varags.*" />
+          <option name="PATTERN" value="Collections.ListInerface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,16 +165,16 @@
       <item itemvalue="Application.Comparators" />
       <item itemvalue="Application.Comparators (1)" />
       <item itemvalue="Application.Comparators (2)" />
+      <item itemvalue="Application.Linkedlist" />
       <item itemvalue="Application.ListInter" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Linkedlist" />
         <item itemvalue="Application.Comparators" />
         <item itemvalue="Application.Comparators (2)" />
         <item itemvalue="Application.Comparators (1)" />
         <item itemvalue="Application.ListInter" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
