@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/BoundedTypeParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/Constructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/GenericContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/GenericException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/GenericWithEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/IntMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/MiniProject/GenericKeyValueStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/MiniProject/TaskProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generic/WildCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/ListInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Varags/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +51,7 @@
     "Application.HasARelationship.executor": "Run",
     "Application.ImplementConvarient.executor": "Run",
     "Application.IsARelationship.executor": "Run",
+    "Application.ListInter.executor": "Debug",
     "Application.LocalInnerClass (1).executor": "Run",
     "Application.LocalInnerClass (2).executor": "Run",
     "Application.LocalInnerClass.executor": "Run",
@@ -86,7 +77,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TaskProcessing">
+  <component name="RunManager" selected="Application.ListInter">
     <configuration name="GenericException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Generic.GenericException" />
       <module name="Java Master" />
@@ -113,12 +104,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericWithEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generic.GenericWithEnum" />
+    <configuration name="ListInter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.ListInter" />
+      <module name="Java Master" />
+      <option name="PROGRAM_PARAMETERS" value="Collections.ListInter" />
+      <option name="VM_PARAMETERS" value="--add-opens java.base/java.util=ALL-UNNAMED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Varags.Main" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generic.*" />
+          <option name="PATTERN" value="Varags.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,26 +145,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generic.WildCard" />
-      <module name="Java Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Generic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.GenericException" />
+      <item itemvalue="Application.GenericKeyValueStore" />
+      <item itemvalue="Application.ListInter" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TaskProcessing" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListInter" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TaskProcessing" />
         <item itemvalue="Application.GenericKeyValueStore" />
         <item itemvalue="Application.GenericException" />
-        <item itemvalue="Application.WildCard" />
-        <item itemvalue="Application.GenericWithEnum" />
       </list>
     </recent_temporary>
   </component>
