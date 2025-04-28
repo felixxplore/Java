@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections/ListInerface/Vectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/ListInerface/CopyOnWriteArrayLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/ListInerface/Stacks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +47,8 @@
     "Application.Comparators (2).executor": "Run",
     "Application.Comparators.executor": "Run",
     "Application.Constructors.executor": "Run",
+    "Application.CopyOnWriteArrayList.executor": "Run",
+    "Application.CopyOnWriteArrayLists.executor": "Run",
     "Application.GenericException.executor": "Run",
     "Application.GenericKeyValueStore.executor": "Run",
     "Application.GenericWithEnum.executor": "Run",
@@ -67,6 +70,7 @@
     "Application.ObjectClass.executor": "Run",
     "Application.Pair.executor": "Run",
     "Application.PurposeOfFinalize.executor": "Run",
+    "Application.Stacks.executor": "Run",
     "Application.StaticInnerClass.executor": "Run",
     "Application.TaskProcessing.executor": "Run",
     "Application.Test (1).executor": "Run",
@@ -81,7 +85,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Vectors">
+  <component name="RunManager" selected="Application.Stacks">
     <configuration name="Comparators (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
       <module name="Java Master" />
@@ -95,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Comparators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
+    <configuration name="CopyOnWriteArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.ListInerface.CopyOnWriteArrayList" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
@@ -108,21 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Comparators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
-      <module name="Java Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.ListInerface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Comparators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
+    <configuration name="CopyOnWriteArrayLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.ListInerface.CopyOnWriteArrayLists" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
@@ -136,6 +127,19 @@
     </configuration>
     <configuration name="Linkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.ListInerface.Linkedlist" />
+      <module name="Java Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.ListInerface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.ListInerface.Stacks" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
@@ -161,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Comparators" />
-      <item itemvalue="Application.Comparators (1)" />
-      <item itemvalue="Application.Comparators (2)" />
+      <item itemvalue="Application.CopyOnWriteArrayList" />
+      <item itemvalue="Application.CopyOnWriteArrayLists" />
       <item itemvalue="Application.Linkedlist" />
+      <item itemvalue="Application.Stacks" />
       <item itemvalue="Application.Vectors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stacks" />
+        <item itemvalue="Application.CopyOnWriteArrayLists" />
+        <item itemvalue="Application.CopyOnWriteArrayList" />
         <item itemvalue="Application.Vectors" />
         <item itemvalue="Application.Linkedlist" />
-        <item itemvalue="Application.Comparators" />
-        <item itemvalue="Application.Comparators (2)" />
-        <item itemvalue="Application.Comparators (1)" />
       </list>
     </recent_temporary>
   </component>
