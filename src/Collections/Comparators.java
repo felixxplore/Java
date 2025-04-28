@@ -58,7 +58,7 @@ public class Comparators {
             }else {
                 return a.getName().compareTo(b.getName()); // if both equal then sort based on name as ascending using compareTo because internally use compareTo
             }
-        })
+        });
         System.out.println("Student list sorted by name");
         for(Student s:stdList){
             System.out.println("Name : "+s.getName()+" Age : "+s.getAge());
