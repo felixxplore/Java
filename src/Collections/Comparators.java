@@ -64,6 +64,8 @@ public class Comparators {
             System.out.println("Name : "+s.getName()+" Age : "+s.getAge());
         }
 
+
+        System.out.println("Done Comparator.");
     }
 
 }
