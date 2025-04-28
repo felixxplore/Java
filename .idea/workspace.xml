@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections/ListInerface/Linkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/ListInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ListInerface/Arraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/ListInerface/Vectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,7 @@
     "Application.Test.executor": "Run",
     "Application.UpDownCasting.executor": "Run",
     "Application.UseOfThrows.executor": "Run",
+    "Application.Vectors.executor": "Run",
     "Application.WildCard.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,7 +81,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Linkedlist">
+  <component name="RunManager" selected="Application.Vectors">
     <configuration name="Comparators (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
       <module name="Java Master" />
@@ -146,11 +147,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListInter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.ListInerface.ListInter" />
+    <configuration name="Vectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.ListInerface.Vectors" />
       <module name="Java Master" />
-      <option name="PROGRAM_PARAMETERS" value="Collections.ListInter" />
-      <option name="VM_PARAMETERS" value="--add-opens java.base/java.util=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Collections.ListInerface.*" />
@@ -166,15 +165,15 @@
       <item itemvalue="Application.Comparators (1)" />
       <item itemvalue="Application.Comparators (2)" />
       <item itemvalue="Application.Linkedlist" />
-      <item itemvalue="Application.ListInter" />
+      <item itemvalue="Application.Vectors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Vectors" />
         <item itemvalue="Application.Linkedlist" />
         <item itemvalue="Application.Comparators" />
         <item itemvalue="Application.Comparators (2)" />
         <item itemvalue="Application.Comparators (1)" />
-        <item itemvalue="Application.ListInter" />
       </list>
     </recent_temporary>
   </component>
