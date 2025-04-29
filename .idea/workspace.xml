@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections/ListInerface/CopyOnWriteArrayLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/ListInerface/Stacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/MapInterface/HashmapClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +53,7 @@
     "Application.GenericWithEnum.executor": "Run",
     "Application.HasARelationship (1).executor": "Run",
     "Application.HasARelationship.executor": "Run",
+    "Application.HashmapClass.executor": "Run",
     "Application.ImplementConvarient.executor": "Run",
     "Application.IsARelationship.executor": "Run",
     "Application.Linkedlist.executor": "Run",
@@ -85,7 +85,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Stacks">
+  <component name="RunManager" selected="Application.HashmapClass">
     <configuration name="Comparators (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
       <module name="Java Master" />
@@ -125,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Linkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.ListInerface.Linkedlist" />
+    <configuration name="HashmapClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.HashmapClass" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.ListInerface.*" />
+          <option name="PATTERN" value="Collections.MapInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,17 +167,17 @@
     <list>
       <item itemvalue="Application.CopyOnWriteArrayList" />
       <item itemvalue="Application.CopyOnWriteArrayLists" />
-      <item itemvalue="Application.Linkedlist" />
+      <item itemvalue="Application.HashmapClass" />
       <item itemvalue="Application.Stacks" />
       <item itemvalue="Application.Vectors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashmapClass" />
         <item itemvalue="Application.Stacks" />
         <item itemvalue="Application.CopyOnWriteArrayLists" />
         <item itemvalue="Application.CopyOnWriteArrayList" />
         <item itemvalue="Application.Vectors" />
-        <item itemvalue="Application.Linkedlist" />
       </list>
     </recent_temporary>
   </component>
