@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections/MapInterface/Comparables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/MapInterface/Navigablemap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/MapInterface/Sortedmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
     "Application.AnonymousClass.executor": "Run",
     "Application.BoundedTypeParameter.executor": "Run",
     "Application.CheckAge.executor": "Run",
+    "Application.Comparables (1).executor": "Run",
     "Application.Comparables.executor": "Run",
     "Application.Comparators (1).executor": "Run",
     "Application.Comparators (2).executor": "Run",
@@ -71,12 +74,14 @@
     "Application.Main.executor": "Run",
     "Application.MemberInnerClass (1).executor": "Run",
     "Application.MemberInnerClass.executor": "Run",
+    "Application.Navigablemap.executor": "Run",
     "Application.ObjectClass (1).executor": "Run",
     "Application.ObjectClass (2).executor": "Run",
     "Application.ObjectClass (3).executor": "Run",
     "Application.ObjectClass.executor": "Run",
     "Application.Pair.executor": "Run",
     "Application.PurposeOfFinalize.executor": "Run",
+    "Application.Sortedmap.executor": "Run",
     "Application.Stacks.executor": "Run",
     "Application.StaticInnerClass.executor": "Run",
     "Application.TaskProcessing.executor": "Run",
@@ -95,7 +100,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Comparables (1)">
+  <component name="RunManager" selected="Application.Navigablemap">
     <configuration name="Comparables (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.Comparables" />
       <module name="Java Master" />
@@ -148,8 +153,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Weakhashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.Weakhashmap" />
+    <configuration name="Navigablemap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.Navigablemap" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
@@ -161,8 +166,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Weakreference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.Weakreference" />
+    <configuration name="Sortedmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.Sortedmap" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
@@ -178,16 +183,16 @@
       <item itemvalue="Application.Comparables" />
       <item itemvalue="Application.Comparables (1)" />
       <item itemvalue="Application.Identityhashmap" />
-      <item itemvalue="Application.Weakhashmap" />
-      <item itemvalue="Application.Weakreference" />
+      <item itemvalue="Application.Navigablemap" />
+      <item itemvalue="Application.Sortedmap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Navigablemap" />
+        <item itemvalue="Application.Sortedmap" />
         <item itemvalue="Application.Comparables (1)" />
         <item itemvalue="Application.Comparables" />
         <item itemvalue="Application.Identityhashmap" />
-        <item itemvalue="Application.Weakhashmap" />
-        <item itemvalue="Application.Weakreference" />
       </list>
     </recent_temporary>
   </component>
