@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections/MapInterface/Enummap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/MapInterface/Hashtables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Queue/Blockingqueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Queue/Doubleendedqueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Queue/Priorityqueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Queue/QueuePerform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/SetInter/Concurrentskiplistset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/SetInter/Copyonwritearrayset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +50,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AggregationRelationship.executor": "Run",
     "Application.AnonymousClass.executor": "Run",
+    "Application.Blockingqueue.executor": "Debug",
     "Application.BoundedTypeParameter.executor": "Run",
     "Application.CheckAge.executor": "Run",
     "Application.Comparables (1).executor": "Run",
@@ -53,9 +58,11 @@
     "Application.Comparators (1).executor": "Run",
     "Application.Comparators (2).executor": "Run",
     "Application.Comparators.executor": "Run",
+    "Application.Concurrentskiplistset.executor": "Run",
     "Application.Constructors.executor": "Run",
     "Application.CopyOnWriteArrayList.executor": "Run",
     "Application.CopyOnWriteArrayLists.executor": "Run",
+    "Application.Copyonwritearrayset.executor": "Run",
     "Application.Enummap.executor": "Run",
     "Application.GenericException.executor": "Run",
     "Application.GenericKeyValueStore.executor": "Run",
@@ -83,7 +90,9 @@
     "Application.ObjectClass (3).executor": "Run",
     "Application.ObjectClass.executor": "Run",
     "Application.Pair.executor": "Run",
+    "Application.Priorityqueue.executor": "Run",
     "Application.PurposeOfFinalize.executor": "Run",
+    "Application.QueuePerform.executor": "Run",
     "Application.Sortedmap.executor": "Run",
     "Application.Stacks.executor": "Run",
     "Application.StaticInnerClass.executor": "Run",
@@ -103,13 +112,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Enummap">
-    <configuration name="Comparables (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.Comparables" />
+  <component name="RunManager" selected="Application.Blockingqueue">
+    <configuration name="Blockingqueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Queue.Blockingqueue" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.MapInterface.*" />
+          <option name="PATTERN" value="Collections.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Comparators (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Comparators" />
+    <configuration name="Concurrentskiplistset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.SetInter.Concurrentskiplistset" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.*" />
+          <option name="PATTERN" value="Collections.SetInter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Enummap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.Enummap" />
+    <configuration name="Copyonwritearrayset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.SetInter.Copyonwritearrayset" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.MapInterface.*" />
+          <option name="PATTERN" value="Collections.SetInter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hashtables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.Hashtables" />
+    <configuration name="Priorityqueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Queue.Priorityqueue" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.MapInterface.*" />
+          <option name="PATTERN" value="Collections.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,25 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Navigablemap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.Navigablemap" />
+    <configuration name="QueuePerform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Queue.QueuePerform" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.MapInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sortedmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.MapInterface.Sortedmap" />
-      <module name="Java Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.MapInterface.*" />
+          <option name="PATTERN" value="Collections.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Comparables (1)" />
-      <item itemvalue="Application.Enummap" />
-      <item itemvalue="Application.Hashtables" />
-      <item itemvalue="Application.Navigablemap" />
-      <item itemvalue="Application.Sortedmap" />
+      <item itemvalue="Application.Blockingqueue" />
+      <item itemvalue="Application.Concurrentskiplistset" />
+      <item itemvalue="Application.Copyonwritearrayset" />
+      <item itemvalue="Application.Priorityqueue" />
+      <item itemvalue="Application.QueuePerform" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Enummap" />
-        <item itemvalue="Application.Hashtables" />
-        <item itemvalue="Application.Navigablemap" />
-        <item itemvalue="Application.Sortedmap" />
-        <item itemvalue="Application.Comparables (1)" />
+        <item itemvalue="Application.Blockingqueue" />
+        <item itemvalue="Application.Priorityqueue" />
+        <item itemvalue="Application.QueuePerform" />
+        <item itemvalue="Application.Concurrentskiplistset" />
+        <item itemvalue="Application.Copyonwritearrayset" />
       </list>
     </recent_temporary>
   </component>
