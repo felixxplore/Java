@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections/Queue/Concurrentlinkeddequeue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/Queue/Concurrentlinkedqueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/IteratorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +71,7 @@
     "Application.Identityhashmap.executor": "Run",
     "Application.ImplementConvarient.executor": "Run",
     "Application.IsARelationship.executor": "Run",
+    "Application.IteratorImpl.executor": "Run",
     "Application.LRUCache.executor": "Run",
     "Application.LinkedhashmapClass.executor": "Run",
     "Application.Linkedlist.executor": "Run",
@@ -111,7 +111,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Concurrentlinkeddequeue">
+  <component name="RunManager" selected="Application.IteratorImpl">
     <configuration name="Blockingqueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.Queue.Blockingqueue" />
       <module name="Java Master" />
@@ -151,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Priorityqueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Queue.Priorityqueue" />
+    <configuration name="IteratorImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.IteratorImpl" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.Queue.*" />
+          <option name="PATTERN" value="Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,16 +181,16 @@
       <item itemvalue="Application.Blockingqueue" />
       <item itemvalue="Application.Concurrentlinkeddequeue" />
       <item itemvalue="Application.Delayedqueue" />
-      <item itemvalue="Application.Priorityqueue" />
+      <item itemvalue="Application.IteratorImpl" />
       <item itemvalue="Application.Synchronousqueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorImpl" />
         <item itemvalue="Application.Concurrentlinkeddequeue" />
         <item itemvalue="Application.Delayedqueue" />
         <item itemvalue="Application.Synchronousqueue" />
         <item itemvalue="Application.Blockingqueue" />
-        <item itemvalue="Application.Priorityqueue" />
       </list>
     </recent_temporary>
   </component>
