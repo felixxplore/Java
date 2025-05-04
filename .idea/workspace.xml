@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ff3922-758c-481b-8dfe-cea85e5c8fac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java8Features/Parallelstream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8Features/Collectorsss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java8Features/InermediateOpertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8Features/InermediateOpertions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java8Features/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8Features/Streams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java8Features/TerminalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8Features/TerminalOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +49,7 @@
     "Application.Blockingqueue.executor": "Debug",
     "Application.BoundedTypeParameter.executor": "Run",
     "Application.CheckAge.executor": "Run",
+    "Application.Collectorsss.executor": "Run",
     "Application.Comparables (1).executor": "Run",
     "Application.Comparables.executor": "Run",
     "Application.Comparators (1).executor": "Run",
@@ -118,9 +117,9 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TerminalOperations">
-    <configuration name="InermediateOpertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8Features.InermediateOpertions" />
+  <component name="RunManager" selected="Application.Collectorsss">
+    <configuration name="Collectorsss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8Features.Collectorsss" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
@@ -132,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.IteratorImpl" />
+    <configuration name="InermediateOpertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8Features.InermediateOpertions" />
       <module name="Java Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.*" />
+          <option name="PATTERN" value="Java8Features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,19 +184,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Collectorsss" />
       <item itemvalue="Application.Parallelstream" />
       <item itemvalue="Application.InermediateOpertions" />
-      <item itemvalue="Application.IteratorImpl" />
       <item itemvalue="Application.Streams" />
       <item itemvalue="Application.TerminalOperations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collectorsss" />
         <item itemvalue="Application.TerminalOperations" />
         <item itemvalue="Application.InermediateOpertions" />
         <item itemvalue="Application.Parallelstream" />
         <item itemvalue="Application.Streams" />
-        <item itemvalue="Application.IteratorImpl" />
       </list>
     </recent_temporary>
   </component>
