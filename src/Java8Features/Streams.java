@@ -7,6 +7,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Streams {
     public static void main(String[] args) {
@@ -88,6 +89,24 @@ public class Streams {
 
         // Using stream
         System.out.println(numbers.stream().filter(x-> x%2==0).count());
+
+
+        // Creating Streams
+        // 1. from collections
+        List<Integer> list1 = Arrays.asList(1, 2, 3, 4, 5);
+        Stream<Integer> stream = list1.stream();
+
+        // 2. from arrays
+        String[] array={"a","b","c"};
+        Stream<String> stream1 = Arrays.stream(array);
+
+        // 3. using Stream.of()
+        Stream<Integer> integerStream = Stream.of(1, 22, 3);
+
+        // 4. Infinite stream
+        Stream<Integer> generate = Stream.generate(() -> 1).limit(10);
+        Stream.iterate(1, x -> x + 1).collect(Collectors.toList());
+
 
 
     }
